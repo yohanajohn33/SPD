@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDA Departmental Portal FAQs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SDA Departmental Portal FAQs</h1>
+    </header>
+
+    <section id="faq-section">
+        <!-- FAQs will be dynamically added here -->
+    </section>
+
+    <section id="ask-section">
+        <h2>Ask a Question</h2>
+        <form onsubmit="event.preventDefault(); submitQuestion();">
+            <label for="question">Your Question:</label><br>
+            <textarea id="question" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
